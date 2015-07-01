@@ -1,0 +1,35 @@
+---
+layout: base
+---
+<div class="wrapper">
+    <header>
+        {% if site.compass.logo %}
+        <div class="logo-container">
+          <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
+        </div>
+        {% endif %}
+
+        {% if site.compass.title %}
+        <div class="author-container">
+            <h1>{{ site.compass.title }}</h1>
+            {% if site.compass.author %}
+                <div>by <strong>{{ site.compass.author }}</strong></div>
+                {% if site.compass.author_email %}
+                    <div><em>{{ site.compass.author_email }}</em></div>
+                {% endif %}
+            {% endif %}
+        </div>
+        {% endif %}
+
+        {% if site.compass.tagline %}
+        <div class="tagline-container"><p>{{ site.compass.tagline }}</p></div>
+        {% endif %}
+    </header>
+    <main>
+      {% if site.compass.include_content %}
+      <div class="content">
+        {% include content.html %}
+      </div>
+      {% endif %}
+    </main>
+</div>
