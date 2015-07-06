@@ -16,6 +16,7 @@ compass:
 
   # tagline will appear under the title (optional)
   tagline: "A simple Desktop Task Scheduler"
+  description: "A simple Desktop Task Scheduler written with Ubuntu Linux in mind"
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true
