@@ -84,7 +84,7 @@ APPLET_LONGDESC = "When is a configurable user task scheduler for Gnome."
 # * the first holds the version ID that build utilities can extract
 # * the second one includes a message that is used both as a commit message
 #   and as a tag-associated message (in `git tag -m`)
-APPLET_VERSION = '0.9.14~beta.1'
+APPLET_VERSION = '0.9.14~beta.2'
 APPLET_TAGDESC = 'Fix bug #97: Time conditions with days of the week...'
 
 # logging constants
